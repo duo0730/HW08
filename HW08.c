@@ -28,9 +28,8 @@ int visit(int maze[][SIZE],Point start,Point end){
 void print(int maze[][SIZE]){
     for(int i =0;i<SIZE;i++){ 
         for(int j=0;j<SIZE;j++) switch(maze[i][j]){
-            case 0 : printf(" "); break;
+            case 0 : printf("x"); break;
             case 1 : printf("█"); break;
-            case 2 : printf("x"); break;
         }
         printf("\n"); 
     }     
